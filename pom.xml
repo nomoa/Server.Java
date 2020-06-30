@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.linkeddatafragments</groupId>
     <artifactId>ldfserver</artifactId>
-    <version>0.2.4-wmf</version>
+    <version>0.2.5-wmf</version>
     <packaging>war</packaging>
     <name>Linked Data Fragments Server</name>
     <url>http://linkeddatafragments.org</url>
@@ -117,11 +117,6 @@
             <version>${jenaVersion}</version>
         </dependency>
         <dependency>
-            <groupId>org.rdfhdt</groupId>
-            <artifactId>hdt-jena</artifactId>
-            <version>2.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
             <version>2.3.25-incubating</version>
@@ -140,6 +135,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

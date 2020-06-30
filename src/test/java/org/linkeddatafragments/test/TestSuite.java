@@ -3,7 +3,6 @@ package org.linkeddatafragments.test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
-import org.linkeddatafragments.test.datasource.HdtDataSourceTest;
 import org.linkeddatafragments.test.datasource.JenaTDBDataSourceTest;
 
 /**
@@ -12,7 +11,6 @@ import org.linkeddatafragments.test.datasource.JenaTDBDataSourceTest;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-   HdtDataSourceTest.class,
    JenaTDBDataSourceTest.class
 })
 public class TestSuite {
